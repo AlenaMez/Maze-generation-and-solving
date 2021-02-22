@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="maze"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="line">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/line" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 line"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="line/fast">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/line" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 line/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cell">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/cell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 cell"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cell/fast">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/cell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 cell/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corridor">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/corridor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 corridor"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corridor/fast">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/corridor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 corridor/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generator">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 generator"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="generator/fast">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/generator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 generator/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maze">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/libmaze.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 maze"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maze/fast">
+				<Option output="/home/ecn/Documents/ecn_arpro/maze/libmaze.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ecn/Documents/ecn_arpro/maze"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ecn/Documents/ecn_arpro/maze/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 maze/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ecn/Documents/ecn_arpro/maze/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/include/a_star.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/include/maze.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/include/point.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/src/generator.cpp">
+			<Option target="generator"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/src/point.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/src/solve_cell.cpp">
+			<Option target="cell"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/src/solve_corridor.cpp">
+			<Option target="corridor"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/src/solve_line.cpp">
+			<Option target="line"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ecn/Documents/ecn_arpro/maze/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
